@@ -5,21 +5,30 @@
 // Create a new array called 'faveColors' and assign it a value of your three favorite colors as strings.
 
 // CODE HERE
-
+let faveColors = ['blue', 'gray','turquoise']
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
+let me = {
+    firstName:
+    superHeroName:
+    homeTown:
+    superPowers:
+    superPowerXP:
+    profileImage:
 
+}
 // The firstName key should have a value of your name as a string. 
-
+let me.firstname = 'Mehmet'
 // The superHeroName key should be your name if you were a super hero. Feel free to jazz it up and get silly with it, e.g. "Thunderous Gas Man". 
-
+let me.superHeroName = ''
 // The homeTown key value you should be your home town. 
-
+let me.homeTown = 'Istanbul'
 // The superPowers key value should be an array with your three super powers as strings. e.g. ['Mega Blast', 'Thunder From Down Under', 'Calamitous Crop Duster']
-
+let me.superPowers =
 //  The superPowerXP key value should be a method that returns a random number between 1-100. Use Math.floor(Math.random() * 100) + 1 
-
+let superPowerXP =
 // The profileImage key value should be a method that returns this url `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`.
+let profileImage =
 
 // CODE HERE
 
