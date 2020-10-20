@@ -200,10 +200,13 @@ const total = myNumbers.reduce ((n1, n2) => n1 + n2 );
 // Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
 
 // // Code Here
+let myNumbersIndex =[];
+myNumbers.forEach((n,i) => myNumbersIndex.push(i))
+
 // let myNumbersIndex = [];
-myNumbers.forEach(callback(i){	
-	myNumbersIndex.push(i)
-})
+// myNumbers.forEach(function(i){	
+// 	myNumbersIndex.push(i)
+// })
 // //////////////////PROBLEM 18////////////////////
 
 // // // Did you know that George Foreman has five sons named George? Go ahead and change everyone's name in the notGeorge array 
@@ -211,11 +214,9 @@ myNumbers.forEach(callback(i){
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // // Code Here
-let forTheLoveOfGeorge = notGeorge.map(function(n){
-	return n = 'George'
-})
+let forTheLoveOfGeorge = notGeorge.map(n => n = 'George')
 	
-// let forTheLoveOfGeorge = notGeorge.map(x => x === 'George')
+
 // //////////////////PROBLEM 19////////////////////
 
 // // Using the people array, filter out everyone that isn't a friend into a new array called 'enemies'. Use .filter(). 
@@ -229,6 +230,10 @@ const people = [
 ]
 
 // // Code Here
+let enemies = people.filter(2 => [2] = true)
+//  if (..friend = true){
+// 	 return people.name
+//  }
 
 
 // let enemies = people.filter(item.friend(funtion i(){
